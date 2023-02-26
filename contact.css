@@ -1,0 +1,124 @@
+.contact-me-container {
+  z-index: 99;
+}
+.contact-me-content {
+  margin: 94px 0;
+  text-align: center;
+  
+}
+.contact-me-title {
+  font-size: 115px;
+  font-weight: bold;
+  color: #d3bc9a;
+  margin-bottom: 25px;
+}
+.contact-me-buttons-container {
+}
+.name-button-container {
+}
+.first-name-button {
+  border-color: #d3bc9a;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: white;
+  color: #736e5c;
+  font-size: 24px;
+  padding: 16px 16px;
+  margin-right: 60px;
+  margin-bottom: 25px;
+  width: 250px;
+}
+.last-name-button {
+  border-color: #d3bc9a;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: white;
+  font-size: 24px;
+  padding: 16px 16px;
+  color: #736e5c;
+  margin-bottom: 25px;
+  width: 250px;
+}
+.email-button {
+  border-color: #d3bc9a;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: white;
+  font-size: 24px;
+  padding: 16px 16px;
+  color: #736e5c;
+  margin-bottom: 25px;
+  width: 600px;
+}
+.text-message-button {
+  resize: none;
+  border-color: #d3bc9a;
+  border-style: solid;
+  border-width: 2.5px;
+  background-color: white;
+  font-size: 24px;
+  padding: 16px 16px;
+  color: #736e5c;
+  width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-me-title {
+    font-size: 80px;
+  }
+  .contact-me-container {
+    
+  }
+  .contact-me-buttons-container {
+    
+  }
+  .first-name-button {
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 175px;
+  }
+  .last-name-button {
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 175px;
+  }
+  .email-button {
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 440px;
+  }
+ .text-message-button {
+  font-size: 20px;
+  padding: 8px 8px;
+  width: 440px;
+ }
+}
+@media screen and (max-width: 520px) {
+  .contact-me-title {
+    font-size: 60px;
+  }
+  .name-button-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.first-name-button {
+  margin: 0;
+  width: 80%;
+  margin-bottom: 25px;
+}
+.last-name-button {
+  margin: 0;
+  width: 80%;
+  margin-bottom: 25px;
+}
+.email-button {
+  width: 80%;
+  margin-bottom: 25px;
+}
+.text-message-button {
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+}

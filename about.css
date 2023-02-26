@@ -1,0 +1,213 @@
+.about-me-container {
+  z-index: 99;
+}
+.about-me-title-container {
+  background-color: #d3bc9a;
+  padding: 60px;
+}
+.about-me-title {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+.about-me-content {
+}
+.about-me-content-container {
+  display: flex;
+  align-items: center;
+}
+.coding-row {
+  display: grid;
+  place-items: center;
+  margin-left: 80px;
+}
+.coding {
+  width: 250px;
+  height: 250px;
+}
+.coding-text {
+  color: #d3bc9a;
+  font-size: 24px;
+  text-align: center;
+  width: 500px;
+}
+.pizza-row {
+  display: grid;
+  place-items: center;
+  margin-left: 620px;
+}
+.pizza {
+  width: 220px;
+  height: 220px;
+}
+.pizza-text {
+  color: #d3bc9a;
+  font-size: 24px;
+  width: 700px;
+  text-align: center;
+}
+.one-thing-i-like-row {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  margin-top: 57px;
+}
+.exercise {
+  width: 250px;
+  padding-bottom: 12px;
+  object-fit: contain;
+}
+.exercise-text {
+  color: #d3bc9a;
+  font-size: 24px;
+  width: 730px;
+}
+
+@media screen and (max-width: 1366px) {
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pizza-row {
+    margin: 48px 0px;
+  }
+  .one-thing-i-like-row,
+  .coding-row {
+    margin: 0;
+  }
+  .about-me-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-content-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-content-see-more {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content-name {
+    font-size: 50px;
+  }
+  .hero-content-text {
+    font-size: 20px;
+    width: 500px;
+  }
+  .hero-content-see-more {
+    font-size: 20px;
+  }
+  .profile-picture {
+    width: 85%;
+    height: 85%;
+  }
+  .about-me-title-container {
+    margin-bottom: -80px;
+  }
+  .about-me-title {
+    font-size: 80px;
+  }
+  .coding-row {
+    margin-bottom: -80px;
+  }
+  .coding {
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
+    margin-bottom: -80px;
+  }
+  .coding-text {
+    font-size: 20px;
+  }
+  .pizza-row {
+    margin-bottom: 20px;
+  }
+  .pizza {
+    width: 62%;
+    height: 62%;
+    object-fit: contain;
+    margin-bottom: -80px;
+  }
+  .pizza-text {
+    font-size: 20px;
+  }
+  .one-thing-i-like-row {
+    margin-bottom: -45px;
+  }
+  .exercise {
+    margin-bottom: -40px;
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+  }
+  .exercise-text {
+    font-size: 20px;
+  }
+  .contact-me-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .about-me-content,
+  .about-me-content-container,
+  .coding-row,
+  .pizza-row,
+  .one-thing-i-like-row {
+    padding: 10px 145px;
+  }
+
+  .about-me-title {
+    font-size: 60px;
+  }
+  .hero-content-text {
+    width: 480px;
+  }
+  .coding {
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+  }
+  .coding-text {
+    width: 80%;
+    margin-top: 15px;
+  }
+  .pizza-text {
+    width: 380px;
+    margin-top: 30px;
+  }
+  .pizza {
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+  }
+  .exercise-text {
+    width: 140%;
+    margin-top: 30px;
+  }
+  .exercise {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+  }
+}

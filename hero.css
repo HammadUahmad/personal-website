@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+   scroll-behavior: smooth;
+}
+.something {
+  text-decoration: none;
+   
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 0.5px 6px 1px rgb(112, 111, 111);
+  z-index: 100;
+  padding: 12px 96px;
+}
+
+.left-section-header {
+  display: flex;
+  align-items: center;
+}
+.website-name {
+  color: #d3bc9a;
+  font-weight: bold;
+  font-size: 30px;
+}
+.website-logo {
+  width: 65px;
+  height: 65px;
+}
+.right-section-header {
+  display: flex;
+}
+.header-button {
+  background-color: #f9e7ce;
+  color: #736e5c;
+  padding: 11px 35px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+   
+}
+.header-button:hover {
+  background-color: #736e5c;
+  color: white;
+}
+.header-button:active {
+  opacity: 0.7;
+   
+}
+#about-me-btn {
+  margin-right: 24px;
+}
+.hero-content {
+  display: flex;
+  justify-content: center;
+  margin: 181px 0px;
+}
+.profile-picture {
+  border-radius: 15px;
+}
+.hero-content-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-right: 25px;
+}
+.hero-content-name {
+  color: #d3bc9a;
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+.hero-content-text {
+  color: #d3bc9a;
+  font-weight: 500;
+  font-size: 30px;
+  width: 730px;
+  margin-bottom: 15px;
+}
+.hero-content-see-more {
+  color: #d3bc9a;
+  font-weight: light;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+}
+@media screen and (max-width: 1366px) {
+  .header-container {
+    justify-content: space-between;
+  }
+  .left-section-header {
+  }
+  .right-section-header {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  
+
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    padding: 12px 50px;
+  }
+  .website-name {
+    font-size: 23px;
+  }
+  .header-button {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .header-container {
+    padding: 12px 25px;
+  }
+  .website-name {
+    font-size: 20px;
+  }
+  .header-button {
+    font-size: 16px;
+    
+  }
+}
