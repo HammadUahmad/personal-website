@@ -100,10 +100,6 @@
     margin-bottom: 20px;
   }
 }
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 768px) {
   .hero-content-name {
     font-size: 50px;
